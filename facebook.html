@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        .fb{
+            background: white;
+            box-shadow: 5px 5px 5px 5px rgb(204, 202, 202);
+            width:400px;
+            height:400px;
+            text-align: center;
+            float:right;
+            position: relative;
+            right:350px;
+            border-radius: 5px;
+        }
+        h1{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 50px;
+        }
+        .fb input {
+            position: relative;
+            top:50px;
+        }
+        .fb button {
+            position: relative;
+            top:80px;
+        }
+        .fb p {
+            position: relative;
+            top:80px;
+            color:rgb(86, 117, 237);
+        }
+        input{
+            padding:20px;
+            border:1px solid rgb(206, 205, 205);
+            border-radius: 5px;
+        }
+        button{
+            padding:15px;
+            width:180px;
+            border:none;
+            border-radius: 5px;
+        }
+        #login{
+            width:350px;
+            background:rgb(86, 117, 237) ;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+    
+        }
+        #btn2{
+           background: rgb(32, 193, 32);
+           color:white;
+           font-weight: bold;
+        }
+        .content{
+            position: relative;
+            top:290px;
+            margin-left:200px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1><span style="color:rgb(86, 117, 237)">facebook</span></h1>
+        <p style="font-size: 30px;">Connect with friends and the world<br> around you on Facebook.</p>
+    </div>
+    <div class="fb">
+       <input type="text" placeholder="Email or phone number" size="40"><br><br>
+       <input type="password" placeholder="Password" size="40"><br>
+       <button id="login"type="button">Login</button>
+       <p>Forgot password?</p>
+       <hr style="top:80px ;width:280px;position:relative">
+       <button id="btn2" type="button">Create new account</button>
+    </div>
+</body>
+</html>
